@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 74px;
+  padding: 13px 123px;
+
+  &__btn {
+    position: absolute;
+    right: 123px;
+    top: 13px;
+
+    width: 102px;
+    height: 48px;
+
+    background-color: $main-color;
+    border-color: $main-color;
+    color: white;
+
+    font-size: 12px;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $c-gray;
+      color: $main-color;
+    }
+  }
+}
+
+.nav {
+  position: absolute;
+  right: 264px;
+  top: 28px;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 12px;
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    color: $main-color;
+
+    &:hover {
+      color: $main-active-text-color;
+    }
+  }
+
+  &__link--margin {
+    width: 72px;
+    color: #4f4f4f;
+  }
+}

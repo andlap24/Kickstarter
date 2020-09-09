@@ -1,0 +1,37 @@
+.main-section {
+  &__title {
+    position: absolute;
+    left: 123px;
+    top: 231px;
+
+    width: 378px;
+    height: 249px;
+
+    font-size: 64px;
+    text-transform: uppercase;
+    color: $main-color;
+    line-height: 130%;
+  }
+
+  &__info {
+    position: absolute;
+    left: 123px;
+    top: 507px;
+
+    width: 276px;
+    height: 96px;
+
+    font-size: 16px;
+    line-height: 150%;
+    color: $main-color;
+  }
+
+  &__image {
+    position: absolute;
+    left: 501px;
+    top: 150px;
+    
+    width: 939px;
+    height: 464px;
+  }
+}
